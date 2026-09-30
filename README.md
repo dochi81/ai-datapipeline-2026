@@ -35,11 +35,33 @@ AI에이전틱 개발자 데이터 파이프라인 과목
 #### Numpy
 
 - 파이썬에서 숫자 데이터를 빠르게 처리하기 위한 대표적인 라이브러리(패키지) Pandas, selenium 등으로 연결
-- [보기](./Chapt01/넘파이기초.ipynb)
+- [보기](./Chapt%2001/넘파이기초.ipynb)
 
 ### Pandas
 
 - 표 형태의 데이터를 손쉽게 다루기 위한 파이썬 라이브러리 (패키지)
 - Numpy가 숫자 배열을 처리, pandas는 행과 열로 실제 데이터셋 읽고 ,DB 처럼 선택, 요약 수정하는 도구
-- [보기](./chapt01/판다스기초.ipynb)
-- [보기2](./chapt02/판다스기초.ipynb)
+- [판다스 기초](./Chapt%2001/판다스기초%20chapt01.ipynb)
+- [판다스 정제](./chapt%2002/판다스데이터처리.ipynb)
+- [판다스 집계](./chapt%2002/판다스집계.ipynb)
+
+### Visualization - Matplotlib, Seaborn
+
+- Pandas, Numpy로 정제한/ 정제된 데이터를 시각화하는 라이브러리 (패키지)
+- EDA(Exploratory Data Analysis) : 탐색적 데이터 분석 시 사용
+- - 항목별 크기비교 : 막대 그래프
+  - 시간에 따른 변화 : 선 그래프
+  - 숫자 데이터 분포 : 히스토그램
+  - 두 숫자 데이터  관계 : 산점도
+  - 이상치 확인 : 박스플롯
+- [시각화 기초](./chapt%2003/시각화기초.ipynb)
+
+### Selenium
+
+- 웹 페이지에서 필요한 데이터를 수집해오는 자동화 라이브러리(패키지)
+- 데이터 수집: Open API 사용, 스크래핑
+- 기본적으로 `HTML','CSS',' JS`
+
+- [HTML 구조 노트북](./chapt%2004/웹구조.ipynb)
+- [HTML 예제](./chapt%2004/index.html)
+
